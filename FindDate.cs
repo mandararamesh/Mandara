@@ -5,7 +5,9 @@ class FindDate
 {
     static void Main()
     {
-        string input = "Hdjsh asd2324234jghjsd hjsdg sdhk 12212021 idf32432 32423 d34234jh dfh";
+       // string input = "Hdjsh asd2324234jghjsd hjsdg sdhk 12212021 idf32432 32423 d34234jh dfh";
+         Console.Write("Enter Input: ");
+        string input = Console.ReadLine();
 
         // Regular expression to match MMDDYYYY
         string pattern = @"\b(\d{2})(\d{2})(\d{4})\b";
